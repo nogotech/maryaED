@@ -1,3 +1,3 @@
-class MaryaED {
-  constructor() {}
-}
+import { init as initTests } from "./tests";
+
+initTests();
