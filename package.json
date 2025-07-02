@@ -1,0 +1,18 @@
+{
+  "name": "mashed",
+  "version": "0.0.1",
+  "description": "A framework based on the idea of ​​EDA with a more declarative approach to implementing business scenarios of your application",
+  "main": "src/index.ts",
+  "scripts": {},
+  "keywords": [
+    "javascript",
+    "typescript",
+    "framework",
+    "eda",
+    "EDA",
+    "semantic",
+    "scenarios"
+  ],
+  "author": "https://github.com/nogotech",
+  "license": "MIT"
+}
