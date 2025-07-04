@@ -6,7 +6,9 @@
     "baseUrl": "./src",
     "strict": true,
     "esModuleInterop": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "verbatimModuleSyntax": true,
+    "skipDefaultLibCheck": true
   },
   "include": ["src"]
 }

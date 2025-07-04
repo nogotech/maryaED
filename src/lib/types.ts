@@ -1,18 +1,12 @@
+import type { NSMaryaEDScenario } from "./scenario";
+
 interface InitializationOptions {
   name: string;
 }
 
-interface IMREDEvent {
-  name: string;
-}
-
-interface IMREDScenario {
-  when(event: IMREDEvent): Promise<void>;
-}
-
-type TDefineScenarioOptions = [
+type TDefineScenarioOptions<Context> = [
   name: string,
-  callback: (scenario: IMREDScenario) => void
+  callback: (scenario: NSMaryaEDScenario.IMREDScenario<Context>) => void,
 ];
 
-export type { InitializationOptions, TDefineScenarioOptions, IMREDEvent };
+export type { InitializationOptions, TDefineScenarioOptions };
